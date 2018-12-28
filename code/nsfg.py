@@ -10,7 +10,9 @@ from __future__ import print_function, division
 import sys
 import numpy as np
 import thinkstats2
-
+import matplotlib  
+matplotlib.use('TkAgg')   
+import matplotlib.pyplot as plt 
 from collections import defaultdict
 
 
